@@ -6,8 +6,8 @@ from PIL import Image
 import os
 
 
-base_path = "C:/Users/HP/Documents/ImageClassifier"
-model = load_model(os.path.join(base_path, 'cat_dog_model1.h5'))
+base_path = "C:/Users/HP/Documents/Image-Classifier"
+model = load_model(os.path.join(base_path, 'catvsdogmodel.h5'))
 
 st.title("🐾 Cat vs Dog Classifier")
 st.write("Upload an image of a cat or dog, and the model will predict what it is.")
